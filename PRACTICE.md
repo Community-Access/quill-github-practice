@@ -77,7 +77,9 @@ In your copy:
 
 1. Reply to the review thread, then resolve it.
 2. Comment on a single line of the diff, then on a range of lines.
-3. Apply the suggested change, then merge the pull request.
+3. Merge the pull request. If you'd like to take the suggested change first,
+   use **Commit suggestion** on GitHub's website: QUILL reads suggestions but
+   doesn't commit them.
 4. Mark the draft pull request "Speed up word counting" as ready for review.
 
 ## Chapter 6: Actions and checks
@@ -91,8 +93,11 @@ Read here:
 
 In your copy:
 
-1. If the checks on the practice pull requests are waiting for approval,
-   approve them.
+1. Use What Failed on the failed Tests run for the branch
+   `practice/speed-up-word-counting`. Set up practice started it for you. (The
+   draft pull request's own check may be waiting for approval, because a
+   workflow opened the pull request. On the web, the pull request page can
+   approve it.)
 2. Run the **Tests** workflow by hand on `main`. It should pass.
 3. Rerun the failed jobs on the draft pull request. They'll fail again, which
    is the point.

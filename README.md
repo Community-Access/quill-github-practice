@@ -62,7 +62,8 @@ again.
 
 In your copy, the checks on the two practice pull requests may wait for your
 approval before they run, because a workflow opened those pull requests rather
-than a person. Approving them is the first exercise in chapter 6.
+than a person. You don't need them: Set up practice also runs the tests on both
+branches itself, so What Failed has a run to explain either way.
 
 ## Where to start
 
