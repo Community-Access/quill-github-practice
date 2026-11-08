@@ -34,5 +34,10 @@ class SummaryTests(unittest.TestCase):
         self.assertEqual(tally.summary("a"), "1 word, 1 character")
 
 
+class LineCountTests(unittest.TestCase):
+    def test_counts_lines(self):
+        self.assertEqual(tally.line_count("one\ntwo"), 2)
+
+
 if __name__ == "__main__":
     unittest.main()
