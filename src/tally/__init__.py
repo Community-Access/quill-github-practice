@@ -16,7 +16,7 @@ def word_count(text):
     """
     if not text:
         return 0
-    return len(text.split(" "))
+    return len(text.replace("-", " ").split())
 
 
 def character_count(text, include_spaces=True):
