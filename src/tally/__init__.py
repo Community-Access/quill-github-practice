@@ -33,3 +33,8 @@ def summary(text):
     word_label = "word" if words == 1 else "words"
     character_label = "character" if characters == 1 else "characters"
     return f"{words} {word_label}, {characters} {character_label}"
+
+
+def line_count(text):
+    """Return how many lines *text* holds."""
+    return len(text.split("\n"))
