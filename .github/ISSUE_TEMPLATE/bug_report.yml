@@ -1,0 +1,40 @@
+name: Bug report
+description: Something in Tally doesn't work the way it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        This is a practice repository, so the bug doesn't have to be real.
+        Fill in each field as if it were.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did Tally do?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+      description: What should it have done instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to see it
+      description: The steps someone else can follow to see the same thing.
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Which editor are you practising with?
+      options:
+        - QUILL
+        - QUILL Lite
+        - Something else
